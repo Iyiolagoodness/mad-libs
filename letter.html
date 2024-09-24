@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/script.js"></script>
+    <title>Mad Libs</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">formal:application</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Informal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <h1>APPLICATION LETTER</h1>
+        <div>
+            <h3>senders section</h3>
+            <form id="formOne">
+                <div class="form-group">
+                    <label for="first">sender's address</label>
+                    <input id="first" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="second">town</label>
+                    <input id="second" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="third">local government(LGA)</label>
+                    <input id="third" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="fourth">state</label>
+                    <input id="fourth" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="fifth">country</label>
+                    <input id="fifth" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="sixth">date</label>
+                    <input id="sixth" class="form-control" type="number text">
+                </div>
+                <h3>receipients setion</h3>
+                <div class="form-group">
+                    <label for="first2">receipients position</label>
+                    <input id="first2" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="second2">company name</label>
+                    <input id="second2" class="form-control" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="third2">company address</label>
+                    <input id="third2" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="fourth2">state</label>
+                    <input id="fourth2" class="form-control" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="fifth2">country</label>
+                    <input id="fifth2" class="form-control" type="text">
+                </div>
+                <h3>body setion</h3>
+                <div class="form-group">
+                    <label for="first3">salutation</label>
+                    <input id="first3" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="second3">position desired</label>
+                    <input id="second3" class="form-control" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="third3">professsion</label>
+                    <input id="third3" class="form-control" type="text">
+                </div>
+                <div class="form-group  ton">
+                    <label for="fourth3">no. of years of experience</label>
+                    <input id="fourth3" class="form-control" type="number" min="2">
+                </div>
+
+                <div class="form-group">
+                    <label for="fifth3"> skills/expertise </label>
+                    <input id="fifth3" class="form-control" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="sixth3"> current position</label>
+                    <input id="sixth3" class="form-control" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="seventh3">Acheivements</label>
+                    <input id="seventh3" class="form-control" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="eigth3">attributes</label>
+                    <input id="eigth3" class="form-control" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="ninth3">your full name</label>
+                    <input id="ninth3" class="form-control" type="Uppercase">
+                </div>
+                <button type="submit" class="btn">SUBMIT</button>
+            </form>
+        </div>
+
+        <div id="letter">
+            <p>
+            <div class="senders"><span class="first"></span><br><span class="second"></span><br>
+                <span class="third"></span><br><span class="fourth"></span><br><span class="fifth"></span><br>
+                <span class="sixth"></span>
+            </div>
+            <div class="receipients"><span class="first2"></span><br><span class="second2"></span><br>
+                <span class="third2"></span><br><span class="fourth2"></span><br><span class="fifth2"></span><br>
+                <span class="sixth2"></span>
+            </div>
+            <div class="Lbody">Dear<span class="first3"></span>,<br>
+                <h1>LETTER OF APPLICATION</h1><br>
+                <div> I am writing to you to express my interest in the <span class="second3"></span> role within your
+                    esteemed organization.As an accomplished <span class="third3"></span> ,with <span
+                    class="fourth3"></span>
+                    years of experience, I believe I have the neccessary skills and expertise to excel in this
+                    positionand a make
+                    a valuable contribution to your team.
+                </div>
+                <div class="bd">My experience has taught me the importance of <span class="fifth3"></span>and i have
+                    honed these skills in a range of challenging roles throughout my career.In my most recent position
+                    as
+                    <span class="sixth3"></span>, I have been instrumental in <span class="seventh3"></span>.I am
+                    confident
+                    that my experince and expertise would enable me to make a significant contribution to your
+                    organization.
+                </div>
+                <div class="bd">In addition to my proffessional experience,I possess <span class="eighth3"></span> and
+                    <span class="eighth3"></span>
+                    ,which I believe would enable me to excel in this role.Furthermore, I am a highly motivated
+                    individual who is commited to
+                    delivering the highest standards of work.
+                </div>
+                <div class="bd">I have attached my CV and would be delighted to discuss my application in more detail
+                    during an
+                    interview.
+                    thank you for considering my application for this role
+                </div>
+            </div>
+            <div class="end">
+                Yours Sincerely <br>
+                <span class="ninth3"></span>
+            </div>
+
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
